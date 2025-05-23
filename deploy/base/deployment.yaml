@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: marianrap/pipelin-app-2:latest  # <- updated by GitHub Actions
+          image: marianrap/pipeline-app-2:latest  # <- updated by GitHub Actions
           ports:
             - containerPort: 8080
           env:
